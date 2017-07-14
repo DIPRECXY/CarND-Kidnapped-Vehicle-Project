@@ -1,8 +1,10 @@
-#include <uWS/uWS.h>
 #include <iostream>
-#include "json.hpp"
-#include <math.h>
+#include <ctime>
+#include <iomanip>
+#include <random>
+
 #include "particle_filter.h"
+#include "helper_functions.h"
 
 using namespace std;
 
